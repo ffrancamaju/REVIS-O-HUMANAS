@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de Humanas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 Revisão de Humanas</h1>
+        <p>História, Geografia e Cultura Brasileira</p>
+    </header>
+
+    <nav>
+        <a href="#ditadura">Ditadura Militar</a>
+        <a href="#bacias">Bacias Hidrográficas</a>
+        <a href="#bossa">Bossa Nova</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <main>
+
+        <section id="ditadura" class="card">
+            <h2>🇧🇷 Ditadura Militar no Brasil</h2>
+
+            <p>
+                A Ditadura Militar brasileira começou em 1964 e terminou em 1985.
+                Durante esse período, o país foi governado por militares e houve
+                restrições às liberdades políticas e civis.
+            </p>
+
+            <h3>Principais pontos:</h3>
+
+            <ul>
+                <li>Início em 1964.</li>
+                <li>Censura aos meios de comunicação.</li>
+                <li>Perseguição política.</li>
+                <li>Atos Institucionais, como o AI-5.</li>
+                <li>Movimentos de resistência.</li>
+                <li>Redemocratização a partir da década de 1980.</li>
+            </ul>
+        </section>
+
+
+        <section id="bacias" class="card">
+            <h2>🌊 Bacias Hidrográficas</h2>
+
+            <p>
+                Uma bacia hidrográfica é uma área do território drenada por um
+                rio principal e seus afluentes. Elas são importantes para o
+                abastecimento, agricultura, geração de energia e preservação ambiental.
+            </p>
+
+            <h3>Exemplos no Brasil:</h3>
+
+            <ul>
+                <li>Bacia Amazônica</li>
+                <li>Bacia do Paraná</li>
+                <li>Bacia do São Francisco</li>
+                <li>Bacia Tocantins-Araguaia</li>
+                <li>Bacia do Paraguai</li>
+            </ul>
+
+            <button onclick="mostrarCuriosidade()">
+                💡 Ver curiosidade
+            </button>
+
+            <p id="curiosidade"></p>
+        </section>
+
+
+        <section id="bossa" class="card">
+            <h2>🎵 Bossa Nova</h2>
+
+            <p>
+                A Bossa Nova surgiu no Brasil no final da década de 1950,
+                principalmente no Rio de Janeiro. O movimento misturou elementos
+                do samba com influências do jazz e trouxe uma nova forma de
+                interpretar a música brasileira.
+            </p>
+
+            <h3>Características:</h3>
+
+            <ul>
+                <li>Ritmo mais suave.</li>
+                <li>Uso marcante do violão.</li>
+                <li>Influência do jazz.</li>
+                <li>Letras sobre situações do cotidiano.</li>
+                <li>Grande importância cultural brasileira.</li>
+            </ul>
+
+            <p>
+                🎤 Artistas importantes: João Gilberto, Tom Jobim e Vinicius de Moraes.
+            </p>
+        </section>
+
+
+        <section id="quiz" class="quiz">
+            <h2>📝 Quiz de Revisão</h2>
+
+            <p>Em que ano começou a Ditadura Militar no Brasil?</p>
+
+            <button onclick="responder(1964)">1964</button>
+            <button onclick="responder(1950)">1950</button>
+            <button onclick="responder(1985)">1985</button>
+            <button onclick="responder(1970)">1970</button>
+
+            <p id="resultado"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>📖 Site de revisão de Humanas • Bons estudos!</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
