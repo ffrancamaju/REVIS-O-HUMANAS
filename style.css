@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #273c75, #40739e);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background: #192a56;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #fbc531;
+}
+
+main {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+.card,
+.quiz {
+    background: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #40739e;
+}
+
+.card h2,
+.quiz h2 {
+    color: #273c75;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #40739e;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+button {
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 5px 0 0;
+    border-radius: 8px;
+    background: #40739e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #273c75;
+    transform: translateY(-2px);
+}
+
+#curiosidade,
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+footer {
+    background: #192a56;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .quiz {
+        padding: 20px;
+    }
+}
